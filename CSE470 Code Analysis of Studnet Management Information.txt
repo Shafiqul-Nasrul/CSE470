@@ -1,0 +1,96 @@
+Exam info load from file 
+Load completed 
+Session,Subject & Student information 
+TABULATION SHEET 
+AVERAGE SHEET 
+Third examiner 
+Tabulator info from exam_ini.dat file
+case 0- creating table and its name and buffer for storing value in it
+case 1- Tutorail Mark
+case 2- Internal Mark (1st Examineer)
+case 3- External Mark (2nd Examineer)
+case 4- Third Examinner Mark
+case 5- Semester for Mark entry
+
+Marksheet
+
+In  subject_no
+Out mark obtain
+letter grade
+grade point
+
+MSc Grade preparation
+
+Initial intention to returns 
+grade point for a subject and pass credit of that subject
+Probably incomplete 
+Comment: Need to remove
+
+Semester
+
+how to detect student is not registered?
+iterate through marksheet for subject
+if found then collect mark for 1, 2, diff, 3 and avg  mark and return
+returns whether difference is 20% of the limit
+search for subj mark_sheet
+setting precision  fro cgpa
+loop for each subject gradings information for ptinting in tabulation sheet
+
+Session
+
+Subject offers in which semester
+student registration in a session
+course is registered by student in any semester
+show list of students for tutorial or final
+Type of arrangement is either tutorial i.e. class roll
+or final i.e. exam roll. 
+Return value is only roll numbers array.
+enter a mark for a student
+check for maximum mark should be 
+less or equal to 40% for Theory 
+and 60% for Practical
+Prepare average sheet for a subject
+If subject no is 0 means all subject to call
+list for thid examination
+list for final or tutorial examination
+initialize printer tabs (printer)
+initialize font pitch (printer)
+Prepare tabulation sheet
+Printing Session
+initialize printable lines
+initialize subject information
+initialization line space
+put subject titles
+End of initialization
+Semester
+repeat each course no 
+Student list for all subjects
+subject are to be repeated if probation is crossed
+Computer Science & Engineering
+get_name
+get_Exam_roll
+Printing grades,cpga etc for a student
+Now load to strout
+ROUNDING OF GPA  AND ENDING
+NEED REDEFINE THE RULE
+GRADE SHEET Filling up
+Output Streaming (Writing in to file)
+
+Student
+setting student serial
+setting bengali name
+setting Name
+setting Father name of the Student
+setting class roll of the Studnet
+setting hall name of the Student
+setting Address of the Student
+checking error for the data that are entered (already registerd or not)
+Processinf all the information of the Student that is collected
+
+Subject
+Seeing the marks for each subject that are achieved by the students
+Format
+Student Name
+Tuituorial Mark
+Final Exam Mark
+Credit of the Subject
